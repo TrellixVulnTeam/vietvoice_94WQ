@@ -1,0 +1,204 @@
+body,html, #main, .main-container{
+    height:100%;
+    width:100%;
+    margin:0;
+    overflow-x: hidden;
+    background-color: #D6D0FE;
+}
+
+audio{
+    width:100%;
+}
+textarea{
+    width:100%;
+    height:100%;
+}
+.color-light{
+    background-color: #D6D0FE;
+}
+.text-light{
+    color: #D6D0FE;
+}
+
+.color-dark{
+    background-color: #5B015B;
+}
+.text-dark{
+    color: #5B015B;
+}
+.border-dark{
+    border-top: 2px solid #5B015B;
+    border-bottom: 2px solid #5B015B;
+}
+
+.color-mid{
+    background-color: #9F52E0;
+}
+.text-mid{
+    color: #9F52E0;
+}
+.border-mid{
+    border-top: 2px solid #9F52E0;
+    border-bottom: 2px solid #9F52E0;
+}
+.hover-mid:hover{
+    background-color: #9F52E0;
+}
+
+.no-border{
+    border:none;
+}
+
+.middle, .main-container{
+    display: flex;
+    justify-content: center;
+	align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vv-header{
+    width:95%;
+    position: relative;
+}
+header span{
+    position:absolute;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;left:0;
+    font-size: 1.5em;
+}
+header button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 0;
+}
+main{
+    position: relative;
+}
+.vv-main{
+    width:100%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height:100%;
+}
+.message{
+    font-size: 0.9em;
+}
+.transcript > div{
+    min-height:100px;
+    padding:2px;
+}
+
+input[type=checkbox]{
+    width:35px;
+    height:35px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.bottom{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.height100{
+    height:100%;
+}
+.height10{
+    height:10%;
+}
+.height20{
+    height:20%;
+}
+.height30{
+    height:30%;
+}
+.height40{
+    height:40%;
+}
+.height50{
+    height:50%;
+}
+.height60{
+    height:60%;
+}
+.height70{
+    height:70%;
+}
+.height80{
+    height:80%;
+}
+.height90{
+    height:90%;
+}
+.width50{
+    float:left;
+    width:50%;
+}
+.width10{
+    float:left;
+    width:10%;
+}
+.width90{
+    float:left;
+    width:90%;
+}
+.width80{
+    width:90%;
+}
+.size15{
+    font-size:1.5em;
+}
+.size2{
+    font-size:2em;
+}
+.size3{
+    font-size:3em;
+}
+.size4{
+    font-size:4em;
+}
+.scrollY{
+    overflow-y:auto;
+}
+.width90{
+    width:90%;
+}
+.nav.vv-menu li{
+    width:100%;
+    padding:15px;
+    padding-left:2.5%;
+    border-bottom: 2px dashed #9F52E0;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+.nav.vv-menu li:hover{
+    border-bottom: 2px solid #9F52E0;
+}
+
+.topbot10{
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+
+.commontext{
+    color: red;
+    padding-left:2px;
+    padding-right:2px;
+}
+
+@media only screen and (max-width: 300px) {
+    .text-300-size{
+        font-size:0.7em;
+    }
+}

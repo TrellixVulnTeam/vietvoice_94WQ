@@ -1,0 +1,4 @@
+page: 
+VIETVOICE (player), login, 
+userMenu, userReport, userInstruction
+adminMenu, adminReport, adminInstruction, importFiles, randomSetting, newUser
